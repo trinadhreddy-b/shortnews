@@ -1,0 +1,33 @@
+.cont{
+    margin: 0 10%;
+    padding-top: 1rem;
+}
+
+
+.navbar-brand {
+    font-weight: 600;
+  
+    font-size: 1.5rem;
+  
+    letter-spacing: 2px;
+    color: #292b2e;
+  }
+
+.accordion-button::after{
+    order: -1;
+    margin-left: 0;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    height: 48px;
+    width: 48px;
+    background-color: blue;
+
+}
+
+.accordion-body{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1px;
+    border-radius: 5px;
+}
